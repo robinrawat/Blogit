@@ -1,2 +1,2 @@
 # Blogit
-A Blogging website Using node js , Angular js , Express , MongoDb , Bootstrap , Html , css 
+A Blogging website Using Node js , Angular js , Express , MongoDb , Bootstrap , Html , css 
