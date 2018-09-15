@@ -1,0 +1,43 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form ng-submit="addUser()">
+			<h2>Create an account</h2>
+			<hr/>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" ng-model="user.firstName" class="form-control input-md" placeholder="first Name" tabindex="1" required>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" ng-model="user.lastName" class="form-control input-md" placeholder="last Name" tabindex="2" required>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="email" ng-model="user.email" class="form-control input-md" placeholder="email Address" tabindex="3" required>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" ng-model="user.password" class="form-control input-md" placeholder="password" tabindex="4" required>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" ng-model="user.confirmPassword" class="form-control input-md" placeholder="Confirm password" tabindex="5" required>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<a href="#/login" class="btn btn-success btn-block btn-md">Sign In</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<button type="submit" class="btn btn-primary btn-block btn-md" tabindex="6">Register</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
